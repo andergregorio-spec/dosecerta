@@ -6,7 +6,7 @@ export const fetchMedicationData = async (
   language: Language
 ): Promise<MedicationInfo> => {
   
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.API_KEY || 'FAKE_API_KEY_FOR_DEVELOPMENT';
   if (!apiKey) {
     throw new Error("API Key not found");
   }
