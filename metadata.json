@@ -1,0 +1,5 @@
+{
+  "name": "Dose Certa",
+  "description": "An intelligent medication information portal that retrieves official package insert data including indications, dosage, side effects, and contraindications using AI and trusted sources.",
+  "requestFramePermissions": []
+}
